@@ -1,0 +1,23 @@
+# Klapsinos Cardiology Platform
+
+Dr. Nikos Klapsinos is a specialized Cardiologist based in Rethymno, Crete, Greece.
+This platform provides state-of-the-art cardiovascular care, diagnosis, and treatment.
+
+## Key Services
+- Clinical Cardiology Examination (ECG/EKG)
+- Echocardiography (Heart Triplex)
+- 24-48 Hour Holter Rhythm Monitor (Arrhythmias)
+- 24-Hour Ambulatory Blood Pressure Monitor (Hypertension)
+- Pre-operative Cardiac Assessment
+
+## Contact & Location
+- Address: Moatsou 61 & Theotokopoulou, Rethymno 741 00, Crete, Greece
+- Phone: +30 28310 56030
+- Mobile: +30 69741 01601
+- Google Maps: https://maps.app.goo.gl/4Acyq4cFxxChSZDF6
+
+## Emergency
+In case of severe emergency (chest pain, stroke symptoms, loss of consciousness), call the European Emergency Number 112 or the Hellenic National Center for Emergency Assistance (EKAV) at 166 immediately.
+
+## Medical Guidelines
+This platform features a localized "Smart First Aid Kit" with protocols for cardiac arrest, strokes, choking, heat stroke, burns, allergic reactions, and massive bleeding. These protocols are based on current international emergency guidelines but do not replace professional medical intervention.

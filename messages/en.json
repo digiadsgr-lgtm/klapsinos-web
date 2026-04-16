@@ -1,0 +1,65 @@
+{
+  "Nav": {
+    "home": "Home",
+    "about": "About Doctor",
+    "services": "Services",
+    "first_aid": "First Aid Kit",
+    "contact": "Contact"
+  },
+  "Index": {
+    "title": "Nikos K. Klapsinos, MD | Cardiologist Rethymno",
+    "hero_title": "Advanced Cardiology Care",
+    "hero_subtitle": "Your heart health is our priority. Certified private clinic located opposite the Rethymno General Hospital.",
+    "emergency_cta": "Emergency (166)",
+    "book_cta": "Book Appointment"
+  },
+  "FirstAid": {
+    "title": "Smart First Aid Kit",
+    "subtitle": "Search symptoms or select an emergency. Call 166 or 112 immediately in life-threatening cases.",
+    "heart_attack": "Heart Attack / Chest Pain",
+    "fainting": "Fainting",
+    "heatstroke": "Heatstroke",
+    "quiz_cta": "Am I in crisis?"
+  },
+  "Services": {
+    "title": "Our Medical Services",
+    "subtitle": "State-of-the-art cardiovascular diagnostics. EOPYY Certified.",
+    "clinical": {
+      "title": "Clinical Exam & ECG",
+      "desc": "A comprehensive physical assessment, blood pressure check, detailed medical history, and Electrocardiogram (ECG)."
+    },
+    "triplex": {
+      "title": "Echocardiogram (Triplex)",
+      "desc": "High-resolution ultrasound imaging of your heart's structure and function in real time."
+    },
+    "dioisofageio": {
+      "title": "Transesophageal Echocardiogram",
+      "desc": "Specialized ultrasound for superior, detailed cardiovascular imaging."
+    },
+    "holter": {
+      "title": "Holter Monitor",
+      "desc": "24 to 48-hour continuous ambulatory ECG tracking to detect elusive arrhythmias."
+    },
+    "stress": {
+      "title": "Stress Test",
+      "desc": "Treadmill stress testing to evaluate myocardial ischemia and cardiovascular performance."
+    }
+  },
+  "About": {
+    "title": "Nikos K. Klapsinos, MD",
+    "bio": "Dr. Nikos K. Klapsinos is a specialized Cardiologist, providing world-class cardiovascular medicine in Rethymno, Crete. Our clinic, located opposite the General Hospital, utilizes modern diagnostic tools combined with a deeply personalized philosophy of care to ensure your heart is always in the right hands."
+  },
+  "Contact": {
+    "title": "Contact & Location",
+    "address_label": "Address",
+    "address": "Trantalidou 8 (opposite Rethymno General Hospital), Rethymno 74132, Crete, Greece",
+    "phone": "Phone Numbers",
+    "hours": "Working Hours (By Appointment)",
+    "hours_val": "Mon-Fri: 09:00 - 14:00 & 18:00 - 21:00",
+    "form_name": "Full Name",
+    "form_email": "Email",
+    "form_msg": "Message",
+    "form_submit": "Send Message",
+    "phones": "2831 056030, +30 6974 101601"
+  }
+}

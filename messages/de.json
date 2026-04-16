@@ -1,0 +1,65 @@
+{
+  "Nav": {
+    "home": "Startseite",
+    "about": "Über den Arzt",
+    "services": "Leistungen",
+    "first_aid": "Erste Hilfe",
+    "contact": "Kontakt"
+  },
+  "Index": {
+    "title": "Nikos K. Klapsinos, MD | Kardiologe Rethymno",
+    "hero_title": "Fortschrittliche Kardiologische Versorgung",
+    "hero_subtitle": "Ihre Herzgesundheit ist unsere Priorität. Zertifizierte Privatpraxis gegenüber dem Allgemeinen Krankenhaus Rethymno.",
+    "emergency_cta": "Notfall (166)",
+    "book_cta": "Termin buchen"
+  },
+  "FirstAid": {
+    "title": "Smartes Erste-Hilfe-Set",
+    "subtitle": "Wählen Sie einen Notfall. Rufen Sie sofort 166 oder 112 an in lebensbedrohlichen Fällen.",
+    "heart_attack": "Herzinfarkt / Brustschmerzen",
+    "fainting": "Ohnmacht",
+    "heatstroke": "Hitzschlag",
+    "quiz_cta": "Bin ich in einer Krise?"
+  },
+  "Services": {
+    "title": "Unsere Medizinischen Leistungen",
+    "subtitle": "Hochmoderne kardiovaskuläre Diagnostik. EOPYY-Zertifiziert.",
+    "clinical": {
+      "title": "Klinische Untersuchung & EKG",
+      "desc": "Eine umfassende körperliche Untersuchung, Blutdruckmessung, ausführliche Anamnese und Elektrokardiogramm (EKG)."
+    },
+    "triplex": {
+      "title": "Echokardiogramm (Triplex)",
+      "desc": "Hochauflösende Ultraschallbildgebung der Struktur und Funktion Ihres Herzens in Echtzeit."
+    },
+    "dioisofageio": {
+      "title": "Transösophageales Echokardiogramm",
+      "desc": "Spezialisierter Ultraschall für eine überlegen detaillierte kardiovaskuläre Bildgebung."
+    },
+    "holter": {
+      "title": "Holter-Monitor",
+      "desc": "24- bis 48-stündige kontinuierliche EKG-Aufzeichnung zur Erkennung von schwer fassbaren Arrhythmien."
+    },
+    "stress": {
+      "title": "Belastungs-EKG",
+      "desc": "Belastungstest auf dem Laufband zur Beurteilung der Myokardischämie und der kardiovaskulären Leistungsfähigkeit."
+    }
+  },
+  "About": {
+    "title": "Nikos K. Klapsinos, MD",
+    "bio": "Dr. Nikos K. Klapsinos ist ein spezialisierter Kardiologe, der sich der Bereitstellung erstklassiger kardiovaskulärer Medizin in Rethymno, Kreta, verschrieben hat. Unsere Klinik befindet sich gegenüber dem Allgemeinen Krankenhaus und nutzt moderne Diagnosegeräte kombiniert mit einer zutiefst personalisierten Pflegephilosophie, um sicherzustellen, dass Ihr Herz immer in den richtigen Händen ist."
+  },
+  "Contact": {
+    "title": "Kontakt & Standort",
+    "address_label": "Adresse",
+    "address": "Trantalidou 8 (gegenüber dem Allgemeinen Krankenhaus), Rethymno 74132, Kreta, Griechenland",
+    "phone": "Telefonnummern",
+    "hours": "Öffnungszeiten (Nach Terminvereinbarung)",
+    "hours_val": "Mo-Fr: 09:00 - 14:00 & 18:00 - 21:00",
+    "form_name": "Vollständiger Name",
+    "form_email": "E-Mail",
+    "form_msg": "Nachricht",
+    "form_submit": "Nachricht Senden",
+    "phones": "2831 056030, +30 6974 101601"
+  }
+}
