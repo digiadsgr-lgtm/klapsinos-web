@@ -69,7 +69,15 @@ export function FirstAidKit() {
            {displayList.map((em) => (
              <button
                key={em.id}
-               onClick={() => setActiveTab(em.id)}
+               onClick={() => {
+                 setActiveTab(em.id);
+                 // On mobile, scroll down smoothly to the details area
+                 if (window.innerWidth < 768) {
+                    setTimeout(() => {
+                       document.getElementById('first-aid-detail')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 50);
+                 }
+               }}
                className={`flex items-center gap-3.5 p-4 rounded-[20px] text-left font-semibold tracking-tight transition-all ${
                  activeTab === em.id 
                    ? 'bg-white shadow-[0_4px_15px_-3px_rgba(0,0,0,0.05)] text-blue-900 border border-blue-100/50' 
@@ -85,7 +93,7 @@ export function FirstAidKit() {
            {displayList.length === 0 && <p className="text-[15px] text-slate-400 font-medium text-center py-4">{locale === 'el' ? 'Δεν βρέθηκε πρωτόκολλο.' : 'No protocol found.'}</p>}
         </div>
 
-        <div className="w-full md:w-3/5 lg:w-2/3 p-8 lg:p-14 relative overflow-hidden bg-white min-h-[600px]">
+        <div id="first-aid-detail" className="w-full md:w-3/5 lg:w-2/3 p-6 md:p-8 lg:p-14 relative overflow-hidden bg-white min-h-[400px] md:min-h-[600px]">
             {/* Warning watermark */}
             <AlertCircle size={400} className="absolute -right-32 -bottom-32 text-slate-50/50 z-0 pointer-events-none" />
 
