@@ -59,7 +59,7 @@ export function FirstAidKit() {
          </motion.div>
       ) : (
       <div className="flex flex-col md:flex-row">
-        <div className="w-full md:w-2/5 lg:w-1/3 border-r border-slate-100 p-6 flex flex-col gap-4 max-h-[600px] overflow-y-auto bg-slate-50/30">
+        <div className="w-full md:w-2/5 lg:w-1/3 border-b md:border-b-0 md:border-r border-slate-100 p-4 md:p-6 flex flex-col gap-3 max-h-[300px] md:max-h-[600px] overflow-y-auto bg-slate-50/30 shrink-0 shadow-inner md:shadow-none">
            {/* Search Bar */}
            <div className="relative sticky top-0 z-10 pb-4 pt-1 bg-white/10 backdrop-blur-xl">
              <Search size={18} className="absolute left-4 top-1/2 -translate-y-1/2 mt-[-6px] text-slate-400" />

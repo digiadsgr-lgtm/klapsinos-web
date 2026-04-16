@@ -60,8 +60,13 @@ export function Footer() {
 
       </div>
       <div className="container mx-auto px-6 max-w-6xl mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between text-sm text-slate-500">
-         <p>&copy; {d} Dr. Nikos Klapsinos. All rights reserved.</p>
-         <p>Medical Disclaimer: In case of severe emergency, contact 112 or 166 immediately.</p>
+         <div className="flex flex-col gap-1">
+            <p>&copy; {d} Dr. Nikos Klapsinos. All rights reserved.</p>
+            <p className="text-slate-600 mt-2 md:mt-0 text-xs">
+               Κατασκευή Ιστοσελίδας από <a href="https://digiads.gr" target="_blank" rel="noopener noreferrer" className="font-bold text-slate-400 hover:text-white hover:underline transition">DIGIADS</a>
+            </p>
+         </div>
+         <p className="max-w-xs md:text-right mt-4 md:mt-0">Medical Disclaimer: In case of severe emergency, contact 112 or 166 immediately.</p>
       </div>
     </footer>
   );
