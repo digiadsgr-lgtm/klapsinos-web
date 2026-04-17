@@ -47,13 +47,13 @@ export default function HomePage() {
                   { icon: HeartPulse, key: "triplex" },
                   { icon: Activity, key: "holter" }
                 ].map((service, i) => (
-                  <div key={i} className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                      <div className="w-14 h-14 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 mb-6">
+                  <Link href={`/services#${service.key}`} key={i} className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block group">
+                      <div className="w-14 h-14 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 mb-6 group-hover:scale-110 transition-transform">
                         <service.icon size={28} />
                       </div>
-                      <h3 className="text-xl font-bold text-slate-900 mb-3">{tSrv(`${service.key}.title`)}</h3>
+                      <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">{tSrv(`${service.key}.title`)}</h3>
                       <p className="text-slate-600 leading-relaxed">{tSrv(`${service.key}.desc`)}</p>
-                  </div>
+                  </Link>
                 ))}
             </div>
         </div>
