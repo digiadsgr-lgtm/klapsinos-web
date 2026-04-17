@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { HeartPulse, Stethoscope, Activity, PhoneCall, Calendar } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 import { FirstAidKit } from '@/components/FirstAidKit';
+import { SmartDietKit } from '@/components/SmartDietKit';
 
 export default function HomePage() {
   const t = useTranslations('Index');
@@ -37,7 +38,7 @@ export default function HomePage() {
       {/* Services Section */}
       <section className="py-32 bg-[#F5F5F7]">
         <div className="container mx-auto px-6 max-w-6xl">
-            <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Comprehensive Services</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">{t('services_title')}</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {[
@@ -64,9 +65,9 @@ export default function HomePage() {
            <div className="bg-blue-600 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 text-white shadow-2xl shadow-blue-900/20 overflow-hidden relative">
               <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
               <div className="relative z-10 max-w-xl">
-                 <h3 className="text-3xl font-extrabold mb-4 tracking-tight">Εγκαταστήστε την Εφαρμογή (PWA)</h3>
+                 <h3 className="text-3xl font-extrabold mb-4 tracking-tight">{t('install_title')}</h3>
                  <p className="text-blue-100 text-lg font-medium">
-                   Η πλατφόρμα μας υποστηρίζει Offline λειτουργία! Πατήστε "Προσθήκη στην οθόνη του κινητού" (Add to Home Screen) στις ρυθμίσεις του Browser σας (Safari/Chrome) για άμεση πρόσβαση στις πρώτες βοήθειες, ακόμη και χωρίς Internet.
+                   {t('install_desc')}
                  </p>
               </div>
               <div className="relative z-10 shrink-0 flex items-center justify-center p-4 bg-white/20 backdrop-blur rounded-[24px] border border-white/30">
@@ -77,6 +78,13 @@ export default function HomePage() {
 
         <div className="container mx-auto px-6 max-w-6xl">
            <FirstAidKit />
+        </div>
+      </section>
+
+      {/* Smart Diet & Prevention Section */}
+      <section className="py-24 bg-[#F5F5F7] border-t border-slate-200/60">
+        <div className="container mx-auto px-6 max-w-6xl flex flex-col items-center">
+            <SmartDietKit />
         </div>
       </section>
     </main>

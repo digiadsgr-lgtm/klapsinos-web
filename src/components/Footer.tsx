@@ -4,6 +4,7 @@ import { HeartPulse, Mail, MapPin, Phone } from 'lucide-react';
 export function Footer() {
   const tNav = useTranslations('Nav');
   const tContact = useTranslations('Contact');
+  const tFooter = useTranslations('Footer');
   const d = new Date().getFullYear();
 
   return (
@@ -22,13 +23,13 @@ export function Footer() {
               </div>
             </div>
             <p className="max-w-sm text-slate-400">
-              Advanced, state-of-the-art cardiovascular care located in the heart of Rethymno, Crete. Serving locals and tourists with excellence and compassion.
+              {tFooter('brand_subtitle')}
             </p>
          </div>
 
          {/* Quick Links */}
          <div className="space-y-6">
-            <h4 className="text-white font-bold text-lg">Quick Links</h4>
+            <h4 className="text-white font-bold text-lg">{tFooter('quick_links')}</h4>
             <ul className="space-y-3">
               <li><a href="/" className="hover:text-blue-400 transition">{tNav('home')}</a></li>
               <li><a href="/about" className="hover:text-blue-400 transition">{tNav('about')}</a></li>
@@ -61,12 +62,12 @@ export function Footer() {
       </div>
       <div className="container mx-auto px-6 max-w-6xl mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between text-sm text-slate-500">
          <div className="flex flex-col gap-1">
-            <p>&copy; {d} Dr. Nikos Klapsinos. All rights reserved.</p>
+            <p>&copy; {d} Dr. Nikos Klapsinos. {tFooter('rights')}</p>
             <p className="text-slate-600 mt-2 md:mt-0 text-xs">
-               Κατασκευή Ιστοσελίδας από <a href="https://digiads.gr" target="_blank" rel="noopener noreferrer" className="font-bold text-slate-400 hover:text-white hover:underline transition">DIGIADS</a>
+               {tFooter('dev_by')} <a href="https://digiads.gr" target="_blank" rel="noopener noreferrer" className="font-bold text-slate-400 hover:text-white hover:underline transition">DIGIADS</a>
             </p>
          </div>
-         <p className="max-w-xs md:text-right mt-4 md:mt-0">Medical Disclaimer: In case of severe emergency, contact 112 or 166 immediately.</p>
+         <p className="max-w-xs md:text-right mt-4 md:mt-0">{tFooter('disclaimer')}</p>
       </div>
     </footer>
   );

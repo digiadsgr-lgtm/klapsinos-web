@@ -11,7 +11,10 @@
     "hero_title": "Fortschrittliche Kardiologische Versorgung",
     "hero_subtitle": "Ihre Herzgesundheit ist unsere Priorität. Zertifizierte Privatpraxis gegenüber dem Allgemeinen Krankenhaus Rethymno.",
     "emergency_cta": "Notfall (166)",
-    "book_cta": "Termin buchen"
+    "book_cta": "Termin buchen",
+    "services_title": "Umfassende Dienstleistungen",
+    "install_title": "Installieren Sie unsere App (PWA)",
+    "install_desc": "Unsere Plattform unterstützt den Offline-Modus! Tippen Sie in Ihren Browsereinstellungen auf \"Zum Startbildschirm hinzufügen\", um sofortigen Zugriff auf Erste-Hilfe-Funktionen ohne Internet zu erhalten."
   },
   "FirstAid": {
     "title": "Smartes Erste-Hilfe-Set",
@@ -61,5 +64,27 @@
     "form_msg": "Nachricht",
     "form_submit": "Nachricht Senden",
     "phones": "2831 056030, +30 6974 101601"
+  },
+  "Footer": {
+    "brand_subtitle": "Fortschrittliche, hochmoderne kardiovaskuläre Versorgung im Herzen von Rethymno, Kreta. Wir dienen Einheimischen und Touristen mit Exzellenz und Mitgefühl.",
+    "quick_links": "Schnelllinks",
+    "rights": "Alle Rechte vorbehalten.",
+    "dev_by": "Website entwickelt von",
+    "disclaimer": "Medizinischer Haftungsausschluss: Bei schweren Notfällen sofort 112 oder 166 anrufen."
+  },
+  "DietKit": {
+    "title": "Intelligente Diät- & Präventions-App",
+    "subtitle": "Wählen Sie Ihr medizinisches Profil, um indikative Ernährungsrichtlinien und empfohlene Vorsorgeuntersuchungen zu erhalten.",
+    "disclaimer": "Die folgenden Ernährungstipps sind rein indikativ. Ein spezieller Plan erfordert die Anleitung durch einen Arzt und einen klinischen Ernährungsberater.",
+    "diabetes": "Diabetes Mellitus",
+    "cholesterol": "Hohes Cholesterin",
+    "triglycerides": "Hohe Triglyceride",
+    "healthy": "Allgemeine Herzgesundheit",
+    "generate": "Analyse generieren",
+    "reset": "Zurücksetzen",
+    "results": "Analyseergebnisse",
+    "diet_plan": "Indikativer Ernährungsplan",
+    "medical_tests": "Empfohlene Vorsorgeuntersuchungen",
+    "metrics": "Wichtige Kennzahlen"
   }
 }

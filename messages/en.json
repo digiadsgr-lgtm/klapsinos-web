@@ -11,7 +11,10 @@
     "hero_title": "Advanced Cardiology Care",
     "hero_subtitle": "Your heart health is our priority. Certified private clinic located opposite the Rethymno General Hospital.",
     "emergency_cta": "Emergency (166)",
-    "book_cta": "Book Appointment"
+    "book_cta": "Book Appointment",
+    "services_title": "Comprehensive Services",
+    "install_title": "Install our App (PWA)",
+    "install_desc": "Our platform supports Offline mode! Tap \"Add to Home Screen\" in your browser settings (Safari/Chrome) for instant access to first aid protocols without Internet."
   },
   "FirstAid": {
     "title": "Smart First Aid Kit",
@@ -61,5 +64,27 @@
     "form_msg": "Message",
     "form_submit": "Send Message",
     "phones": "2831 056030, +30 6974 101601"
+  },
+  "Footer": {
+    "brand_subtitle": "Advanced, state-of-the-art cardiovascular care located in the heart of Rethymno, Crete. Serving locals and tourists with excellence and compassion.",
+    "quick_links": "Quick Links",
+    "rights": "All rights reserved.",
+    "dev_by": "Website Developed by",
+    "disclaimer": "Medical Disclaimer: In case of severe emergency, contact 112 or 166 immediately."
+  },
+  "DietKit": {
+    "title": "Smart Diet & Prevention App",
+    "subtitle": "Select your medical profile to receive indicative dietary guidelines and recommended preventive tests.",
+    "disclaimer": "The following dietary tips are strictly indicative. A specialized plan requires guidance from a Doctor and a Clinical Dietitian.",
+    "diabetes": "Diabetes Mellitus",
+    "cholesterol": "High Cholesterol",
+    "triglycerides": "High Triglycerides",
+    "healthy": "General Heart Health",
+    "generate": "Generate Analysis",
+    "reset": "Reset",
+    "results": "Analysis Results",
+    "diet_plan": "Indicative Dietary Plan",
+    "medical_tests": "Recommended Preventive Tests",
+    "metrics": "Key Metrics"
   }
 }
