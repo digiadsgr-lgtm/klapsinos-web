@@ -14,7 +14,7 @@ export function SmartDietKit() {
   const activeContent = dietsDB.find(d => d.id === selectedProfile);
 
   return (
-    <div className="w-full max-w-5xl mx-auto bg-white/95 backdrop-blur-3xl rounded-[32px] shadow-[0_20px_60px_-15px_rgba(34,197,94,0.1)] border border-green-100/50 overflow-hidden mt-12 relative">
+    <div id="smart-diet-kit" className="w-full max-w-5xl mx-auto bg-white/95 backdrop-blur-3xl rounded-[32px] shadow-[0_20px_60px_-15px_rgba(34,197,94,0.1)] border border-green-100/50 overflow-hidden mt-12 relative scroll-mt-24">
       <div className="absolute top-0 right-0 w-96 h-96 bg-green-500/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
       
       <div className="p-8 border-b border-green-50/50 bg-gradient-to-r from-emerald-900 to-green-900 backdrop-blur-md text-white flex flex-col sm:flex-row justify-between items-center gap-6 relative z-10">
@@ -39,7 +39,14 @@ export function SmartDietKit() {
                {dietsDB.map(profile => (
                   <button 
                     key={profile.id} 
-                    onClick={() => setSelectedProfile(profile.id)} 
+                    onClick={() => {
+                        setSelectedProfile(profile.id);
+                        if (window.innerWidth < 768) {
+                           setTimeout(() => {
+                              document.getElementById('smart-diet-kit')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                           }, 50);
+                        }
+                    }} 
                     className="flex items-center gap-4 p-6 rounded-[24px] bg-slate-50 hover:bg-green-50 border border-slate-100 hover:border-green-200 transition-all text-left group"
                   >
                      <div className={`w-14 h-14 rounded-2xl flex items-center justify-center ${profile.bg} ${profile.color} group-hover:scale-110 transition-transform`}>
