@@ -7,6 +7,7 @@ import { SmartDietKit } from '@/components/SmartDietKit';
 
 export default function HomePage() {
   const t = useTranslations('Index');
+  const tSrv = useTranslations('Services');
 
   return (
     <main className="flex-1 flex flex-col">
@@ -42,16 +43,16 @@ export default function HomePage() {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {[
-                  { icon: Stethoscope, title: "Clinical Examination", desc: "Thorough cardiovascular assessment and consultation." },
-                  { icon: HeartPulse, title: "Echocardiogram (Triplex)", desc: "Advanced ultrasound imaging of the heart." },
-                  { icon: Activity, title: "Holter Monitor", desc: "24-48 hour ambulatory ECG tracking." }
+                  { icon: Stethoscope, key: "clinical" },
+                  { icon: HeartPulse, key: "triplex" },
+                  { icon: Activity, key: "holter" }
                 ].map((service, i) => (
                   <div key={i} className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                       <div className="w-14 h-14 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 mb-6">
                         <service.icon size={28} />
                       </div>
-                      <h3 className="text-xl font-bold text-slate-900 mb-3">{service.title}</h3>
-                      <p className="text-slate-600 leading-relaxed">{service.desc}</p>
+                      <h3 className="text-xl font-bold text-slate-900 mb-3">{tSrv(`${service.key}.title`)}</h3>
+                      <p className="text-slate-600 leading-relaxed">{tSrv(`${service.key}.desc`)}</p>
                   </div>
                 ))}
             </div>
